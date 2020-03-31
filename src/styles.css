@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,400,700&display=swap");
+
+.App {
+  padding: 0 16px;
+}
+
+* {
+  /* develop */
+  /* border: 1px solid; */
+
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(34, 42, 66, 0);
+}
+
+body {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.7);
+  text-align: left;
+  background-color: #1e1e2f;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.4375rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table > thead > tr > td,
+.table > tbody > tr > td {
+  text-align: center;
+  padding: 12px 7px;
+}
+
+.table tbody tr {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 0.0625rem solid hsla(0, 0%, 100%, 0.1);
+}
+
+.text-primary {
+  font-weight: 700;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+}
+
+@media screen and (min-width: 1024px) {
+  .column {
+    flex: 25%;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.canvas-container {
+  padding: 10px 0px 25px;
+  width: 99%;
+  max-height: 163px;
+}
+
+.card {
+  background: #27293d;
+  border: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.2857rem;
+  border-top-left-radius: 0.2857rem;
+  border-top-right-radius: 0.2857rem;
+  border-bottom-right-radius: 0.2857rem;
+  border-bottom-left-radius: 0.2857rem;
+}
+
+.card .card-header {
+  padding: 15px 15px 0;
+  border: 0;
+  color: hsla(0, 0%, 100%, 0.8);
+  text-align: left;
+}
+
+.card-header {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 0;
+  border-bottom: 0.0625rem solid rgba(34, 42, 66, 0.05);
+}
+
+.card .card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.5rem;
+}
+
+.card-body {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.dot.white {
+  background-color: white;
+}
+
+.dot.blue {
+  background-color: rgb(27, 59, 152);
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 12px;
+}
+
+.color-btc {
+  color: #e78a23;
+}
+
+.color-usdt {
+  color: #17a96f;
+}
